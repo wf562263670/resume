@@ -7,8 +7,8 @@ $(function () {
     const company = $("#company_table");
     const projectTable = $("#project_table");
     eduList.push(edu1);
-    companyList.push(company1, company2);
-    projectList.push(project1, project2, project3, project4, project5);
+    companyList.push(company1);
+    projectList.push(project1);
     for (let i = eduList.length - 1; i >= 0; i--) {
         let html = "<tr>" +
             "<td width='8%' class='font-weight-bold font_size'>学校名称:</td>" +
