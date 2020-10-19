@@ -7,8 +7,8 @@ $(function () {
     const company = $("#company_table");
     const projectTable = $("#project_table");
     eduList.push(edu1);
-    companyList.push(company1);
-    projectList.push(project1);
+    companyList.push(company1, company2);
+    projectList.push(project1, project2, project3, project4, project5,project6);
     for (let i = eduList.length - 1; i >= 0; i--) {
         let html = "<tr>" +
             "<td width='8%' class='font-weight-bold font_size'>学校名称:</td>" +
@@ -59,23 +59,16 @@ $(function () {
             "<td width='20%' class='font_size'>" + projectList[i].job + "</td>" +
             "</tr>" +
             "<tr>" +
-            "<td class='font-weight-bold font_size'>项目描述:</td>" +
-            "<td colspan='5'>" +
-            "<table>" +
-            "<tr>" +
-            "<td width='120' valign='top' class='font_size'>系统架构：</td>" +
-            "<td class='font_size' valign='top'>" + projectList[i].describe.architecture + "</td>" +
+            "<td class='font-weight-bold font_size' valign='top'>系统架构:</td>" +
+            "<td colspan='5' class='font_size' >" + projectList[i].describe.architecture + "</td>" +
             "</tr>" +
             "<tr>" +
-            "<td width='120' valign='top' class='font_size'>项目描述：</td>" +
-            "<td class='font_size' valign='top'>" + projectList[i].describe.remark + "</td>" +
+            "<td class='font-weight-bold font_size' valign='top'>项目描述:</td>" +
+            "<td colspan='5' class='font_size'>" + projectList[i].describe.remark + "</td>" +
             "</tr>" +
             "<tr>" +
-            "<td width='120' valign='top' class='font_size'>责任描述：</td>" +
-            "<td class='font_size' valign='top'>" + projectList[i].describe.liability + "</td>" +
-            "</tr>" +
-            "</table>" +
-            "</td>" +
+            "<td class='font-weight-bold font_size' valign='top'>工作描述:</td>" +
+            "<td colspan='5' class='font_size' >" + projectList[i].describe.liability + "</td>" +
             "</tr>";
         if (i !== 0) {
             html += "<tr><td><p/></tr>";
