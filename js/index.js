@@ -52,9 +52,9 @@ $(function () {
     for (let i = projectList.length - 1; i >= 0; i--) {
         let html = "<tr>" +
             "<td width='10%' class='font-weight-bold font_size'>项目名称:</td>" +
-            "<td width='20%' class='font_size'>" + projectList[i].project + "</td>" +
+            "<td width='25%' class='font_size'>" + projectList[i].project + "</td>" +
             "<td width='10%' class='font-weight-bold font_size'>项目时间:</td>" +
-            "<td width='20%' class='font_size'>" + projectList[i].time + "</td>" +
+            "<td width='15%' class='font_size'>" + projectList[i].time + "</td>" +
             "<td width='10%' class='font-weight-bold font_size'>项目位置:</td>" +
             "<td width='20%' class='font_size'>" + projectList[i].job + "</td>" +
             "</tr>" +
