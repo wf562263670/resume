@@ -24,7 +24,7 @@ const company1 = {
 const company2 = {
     "company": "江苏功业互联科技有限公司",
     "position": "Java开发工程师",
-    "time": "2020.8-至今",
+    "time": "2020.8-2021.3",
     "remark": "Java开发工程师，担任开发组组长，解决技术性问题，负责对公司项目问题排查，对项目数据库调优"
 };
 
