@@ -6,11 +6,12 @@ const edu1 = {
 
 
 const skillData = [
-    "熟练使用SpringBoot, SpringCloud, Zookeeper,Dubbo等开源框架",
+    "熟练使用SpringBoot, MyBatis, SpringCloud, Zookeeper, Dubbo等开源框架",
     "熟练使用MySQL、Redis等数据库技术",
-    "熟悉JVM调优,MySQL调优",
-    "了解RabbitMQ,Kafka等消息中间件",
-    "了解Docker、ElasticSearch",
+    "熟练使用Vue、BootStrap、JQuery、UniApp等前端技术",
+    "熟悉JVM和MySQL调优原理",
+    "熟练使用JenKins和Docker搭建自动化部署环境",
+    "了解RabbitMQ,ElasticSearch等开源框架",
 ];
 
 const company1 = {
@@ -23,7 +24,7 @@ const company1 = {
 const company2 = {
     "company": "江苏功业互联科技有限公司",
     "position": "Java开发工程师",
-    "time": "2020.7-至今",
+    "time": "2020.8-至今",
     "remark": "Java开发工程师，担任开发组组长，解决技术性问题，负责对公司项目问题排查，对项目数据库调优"
 };
 
